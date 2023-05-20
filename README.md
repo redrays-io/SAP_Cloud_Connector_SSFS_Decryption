@@ -53,3 +53,12 @@ public class SecStoreAccess { // the class name must be SecStoreAccess
 }
 ```
 ![image](https://user-images.githubusercontent.com/7976421/202764294-14d66338-b94f-4825-8fec-cb673f46e15c.png)
+
+
+## Contact RedRays
+
+For any questions or further details, don't hesitate to reach out:
+
+* [GitHub](https://github.com/redrays-io)
+* [Email](mailto:vahagn@redrays.io)
+* [Website](https://www.redrays.io?gh)
