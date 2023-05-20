@@ -7,8 +7,9 @@ This repository offers a Proof of Concept (PoC) for decrypting SAP Cloud Connect
 To begin, you are required to download the SSFS file from the SAP Server to your personal device. As an instance, in my case, the SSFS was stored at this location on my laptop: /home/vah13/research/SSFS_SCC.DAT.
 Before initiating the decryption process, it is necessary to define two parameters in the environment:
 
-The SAP System ID (SID). Set it with this command: export SAPSYSTEMNAME=SCC.
-The pathway to SSFS excluding the complete filename. Set it with this command: export RSEC_SSFS_DATAPATH=/home/vah13/research/SSFS.
+* The SAP System ID (SID). Set it with this command: export SAPSYSTEMNAME=SCC.
+* The pathway to SSFS excluding the complete filename. Set it with this command: export RSEC_SSFS_DATAPATH=/home/vah13/research/SSFS.
+
 It's important to utilize the libsapscc20jni.so library.
 You can now compile and run the following code to decrypt the SSFS:
 ```java
