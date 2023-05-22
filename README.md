@@ -1,4 +1,4 @@
-# SAP_Cloud_Connector_SSFS_Decryption
+# SAP Cloud Connector SSFS Decryption
 This repository offers a Proof of Concept (PoC) for decrypting SAP Cloud Connector SSFS. The core feature of this PoC is the exploitation of an exported function - getRecord, present in the libsapscc20jni.so file. The advantage is that you can decrypt the SSFS properties values WITHOUT REVERSING THE ECRYPTION ALGORITHM.
 
 ![image](https://github.com/redrays-io/SAP_Cloud_Connector_SSFS_Decryption/assets/7976421/58d49443-f87e-46cf-a1bf-e8d9799e9e88)
